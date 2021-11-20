@@ -128,13 +128,30 @@ p:last-child {
     color: #e37165;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.button {
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid #f59186;
+    border-radius: 2rem;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+}
 
  /* Header & Footer */
 footer {
-   padding-bottom: 0.5rem;
-   color: rgb(125 120 120);
+   padding-bottom: 2rem;
+   color: rgb(145 140 140);
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
 }
 
+footer p{
+    font-size: 0.8rem;
+}
 /* Images & Background Images */
 
 .bg-image {
@@ -164,15 +181,33 @@ footer {
     border-top-right-radius: 20rem;
 }
     
-a {
-    color: inherit;
-    text-decoration: none;
-}
-.button {
-    color: inherit;
-    text-decoration: none;
-    border: 2px solid #f59186;
-    border-radius: 2rem;
-    padding: 0.5rem 1.5rem;
-    display: inline-block;
-}
+
+/* Gridlez media queries
+@media (max-width: 36em)	Max 576px	_xs-*
+@media (max-width: 48em)	Max 768px	_sm-*
+@media (max-width: 64em)	Max 1024px	_md-*
+@media (max-width: 80em)	Max 1280px	_lg-*
+ */
+
+ /* Gridlex sm media query */
+
+ @media (max-width: 48em) {
+    .text-xxl { font-size: 6.5rem; }
+    .text-xl  { font-size: 3.5rem; }
+    .sm-block { display: block;    }
+
+    .bg-leaves        { background-image: url('/images/leaves-light.png'); }
+    .text-center-sm   { text-align: center;}
+ }
+ /* Gridlex xs media query */
+
+ @media (max-width: 36em) {
+    .text-xxl { font-size: 4.5rem; }
+    .text-xl  { font-size: 2.5rem; }
+    .text-lg  { font-size: 2.5rem; }
+ }
+
+ @media (max-width: 22em) {
+    .text-xxl { font-size: 2.5rem; }
+    .text-lg  { font-size: 1.5rem; }
+ }
