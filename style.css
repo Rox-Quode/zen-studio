@@ -160,7 +160,7 @@ footer p{
     background-image: url('/images/zen-studio-1.jpg');
 }
 
-.bg-stone  { background-image: url('/images/stone.png');}
+.bg-stone  { background-image: url('/images/stone.jpg');}
 
 .bg-leaves {
     background-image: url('/images/zen-studio-1.jpg');    
@@ -168,7 +168,7 @@ footer p{
 }
 
 .bg-venue  { background-image: url('/images/zen-studio-3.jpg');      }
-.bg-map    { background-image: url('/images/light-colored-map.png'); }
+.bg-map    { background-image: url('/images/light-colored-map.jpg'); }
 
 
 .shape-teardrop { 
